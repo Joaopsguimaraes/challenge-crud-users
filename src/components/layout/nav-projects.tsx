@@ -34,7 +34,7 @@ export function NavSettings({
 								{
 									'bg-primary text-white font-medium hover:bg-primary/90 hover:text-white':
 										item.isActive,
-									'hover:bg-primary/80 hover:text-white': !item.isActive,
+									'hover:bg-primary/5 hover:text-primary': !item.isActive,
 								}
 							)}
 						>
